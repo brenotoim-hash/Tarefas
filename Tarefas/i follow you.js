@@ -13,6 +13,7 @@
 
 const readline = require('readline');
 
+
 // Configuração para ler entrada do usuário
 const rl = readline.createInterface({
 input: process.stdin,
