@@ -1,12 +1,13 @@
 const Livro = []
 const categoria = []
-const quantidade = readline.createInterface({
+const quantidade = []
+const readline = require('readline');
 
 input: process.stdin,
 output: process.stdout,
 });
-quantidade.question('Digite a quantidade de livros: ', (S1)) =>{
- for i <S1
+quantidade.question('Digite a quantidade de livros: ', )(S1) =>{
+ for (let i=0;i<S1;i++)
   Livro.push("nome do livro:",(Livro))
   categoria.push("Categoria do livro:",(categoria))
   
